@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: white;
+}
+h1 {
+  font-size: 260%;
+}
+h2 {
+  margin: 2% 0;
+  font-size: 250%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: underline;
+}
+nav a:hover {
+  color: #fff;
+}
+main {
+  display: flex;
+}
+#grad1 {
+  background-image: linear-gradient(to bottom right, darkblue, blue);
+  text-align: right;
+  font-size: 60%;
+  color: White;
+}
+.aboutme {
+  margin-bottom: 20px;
+  height: 300px;
+  font-family: "Gill Sans", "sans-serif";
+  background-color: white;
+}
+.aboutme img {
+  max-height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.aboutmecard {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+  padding: 50px;
+  flex: 0 0 200px;
+  box-shadow: 10px 5px lightgrey;
+  margin: 20px;
+}
+.aboutmecard {
+  text-align: center;
+}
+.products {
+  flex: 4;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
+.card header {
+  border-radius: 50px 50px 0px 0px;
+  padding: 20px;
+}
+.card p {
+  text-align: center;
+}
+.card img {
+  width: 100%;
+}
+.subheader {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: lightblue;
+}
+section h1 .seo {
+  color: purple;
+  font-weight: bolder;
+}
+
+.work h2 {
+  color: red;
+  text-align: left;
+  font-size: 45px;
+  margin-bottom: 35px;
+  padding: 0px 50px 25px 42px;
+  border-right: 3px solid;
+  float: left;
+  border-color: #3a3d46;
+  line-height: 10;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  padding: 0px 70px 0px 20px;
+}
+.Horiseon-Project {
+  border: 3px solid lightblue;
+  grid-column: span 8;
+  grid-row: span 2;
+  background-image: url("./computers.jpg");
+  background-size: cover;
+}
+.Horiseon-Project button {
+  color: black;
+  background-color: white;
+  border: solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  bottom: 20px;
+  margin-top: 220px;
+}
+.Horiseon-Project:hover {
+  transition: 0.6s;
+  background-color: black;
+}
+.grid-item-comingsoon {
+  border: 3px solid lightblue;
+  background-image: url("./keyboard.jpeg");
+  background-size: cover;
+  grid-column: span 4;
+  width: 390px;
+}
+.grid-item-comingsoon button {
+  color: black;
+  background-color: white;
+  border: solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  bottom: 50px;
+  margin-top: 65px;
+}
+.grid-item-comingsoon1 {
+  border: 3px solid lightblue;
+  background-image: url("./LED.jpeg");
+  background-size: cover;
+  grid-column: span 4;
+  width: 390px;
+}
+.grid-item-comingsoon1 button {
+  color: black;
+  background-color: white;
+  border: solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  bottom: 50px;
+  margin-top: 65px;
+}
+.grid-item-comingsoon2 {
+  border: 3px solid lightblue;
+  background-image: url("./orange.jpeg");
+  background-size: cover;
+  grid-column: span 4;
+}
+.grid-item-comingsoon2 button {
+  color: black;
+  background-color: white;
+  border: solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  bottom: 50px;
+  margin-top: 65px;
+}
+.grid-item-comingsoon3 {
+  border: 3px solid lightblue;
+  background-image: url("./bluehex.jpg");
+  background-size: cover;
+  grid-column: span 4;
+  width: 400px;
+  height: 200px;
+}
+
+.grid-item-comingsoon3:hover {
+  transform: scale(1, 1);
+  background-image: url(./weatherScreeshot.jpeg);
+  transition: 0.6s;
+}
+
+.grid-item-comingsoon2:hover {
+  transform: scale(1, 1);
+  background-image: url(./passwordScreenshot.jpeg);
+  transition: 0.6s;
+}
+
+.grid-item-comingsoon:hover {
+  transform: scale(1, 1);
+  background-image: url(./workdayScreeshot.jpeg);
+  transition: 0.6s;
+}
+
+.grid-item-comingsoon3 button {
+  color: black;
+  background-color: white;
+  border: solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  bottom: 50px;
+  margin-top: 65px;
+}
+.tech {
+  font-size: 10px;
+}
+.grid-item {
+  grid-column: span 4;
+  border: 3px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Horiseon-Project {
+  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  transition: 0.2s;
+}
+.Horiseon-Project:hover {
+  transform: scale(1, 1);
+  background-image: url(./horiseonScreeshot.jpeg);
+}
+.work h2 {
+  color: navy;
+  text-align: left;
+  font-size: 45px;
+  margin-bottom: 35px;
+  padding: 0px 50px 25px 42px;
+  border-right: 3px solid;
+  float: left;
+  border-color: #3a3d46;
+  line-height: 10;
+}
+
+#contact {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: lightblue;
+}
+
+section h1 .me {
+  color: purple;
+  font-weight: bolder;
+}
+
+.footer {
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    padding: 30px 15px;
+  }
+  .about,
+  .grid,
+  .contact {
+    display: block;
+  }
+  .Horiseon-Project,
+  .grid-item-comingsoon,
+  .grid-item-comingsoon1,
+  .grid-item-comingsoon2,
+  .grid-item-comingsoon3 {
+    padding: 0 20px 10px 5px;
+    flex: 1 100%;
+    text-align: center;
+  }
+  .dividing-border {
+    flex: 2 100%;
+    border-left: 0;
+  }
+}
+
+.details {
+  margin-left: 13%;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+#buttonContact {
+  font-size: 15px;
+  color: black;
+  box-shadow: black;
+}
